@@ -5,6 +5,10 @@ DAY 1 - 12th MAY 2026 (~ 15mins)
 
 solved 2 problems
 
+Keep in Mind That...
+- SQL keywords are NOT case sensitive: select is the same as SELECT (but using uppercase is best practice)
+- semicolon: use semicolon at the end of each SQL statement
+
 LEARNING: 
 - use = (for equality) and <> (for inequality)
 - don't use == and != this is SQL not Python bruhhh
