@@ -16,3 +16,30 @@ LEARNING:
 don't use = or <> for NULL!!! (cuz i just did that 😛 it dont work)
 
 for day 2, conitnue solving easy problems and stop either when spent > 15mins OR need learning a new concept (in that case go learn it!)
+
+DAY 1 - 12th MAY 2026 (~ 15mins)
+
+solved 3 problems
+
+LEARNING: 
+
+- Use LIKE for string patterns for example: (selects when the name starts with C)
+
+SELECT patient_id
+FROM patients
+WHERE first_name LIKE 'C%';
+
+proper notes:
+The LIKE operator in SQL is used within a WHERE clause to search for a specific pattern in a column's text data. It allows for partial matching instead of exact matches, which is essential when you only know a portion of the data you're looking for.
+
+- USE wildcards % and _ (underscore) are to define patterns
+
+% Represents zero, one, or multiple characters
+_ Represents a single character
+
+example: (copied from internet/google's AI mode)
+- 'A%'Matches strings starting with "A" (e.g., "Apple", "Alex").
+- '%a'Matches strings ending with "a" (e.g., "Data", "Banana")
+- '%or%'Matches strings containing "or" at any position (e.g., "Orange", "World")
+- '_a%'Matches strings where "a" is the second character (e.g., "Cat", "Banana")
+- 'A__'Matches strings starting with "A" and exactly 3 characters long (e.g., "Art", "Ada")
