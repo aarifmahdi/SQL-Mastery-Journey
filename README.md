@@ -17,7 +17,7 @@ don't use = or <> for NULL!!! (cuz i just did that 😛 it dont work)
 
 for day 2, conitnue solving easy problems and stop either when spent > 15mins OR need learning a new concept (in that case go learn it!)
 
-DAY 1 - 12th MAY 2026 (~ 15mins)
+DAY 2 - 13th MAY 2026 (~ 25mins)
 
 solved 3 problems
 
