@@ -1,4 +1,4 @@
-<img width="1471" height="782" alt="image" src="https://github.com/user-attachments/assets/335a9f51-dda1-4212-a7a3-548d11cb1c2b" /># SQL-Mastery-Journey
+SQL-Mastery-Journey
 here i'll log my progress and dump my solutions of sql questions/problems from sql-practice.com
 
 DAY 1 - 12th MAY 2026 (~ 15mins)
