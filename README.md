@@ -1,4 +1,4 @@
-# SQL-Mastery-Journey
+<img width="1471" height="782" alt="image" src="https://github.com/user-attachments/assets/335a9f51-dda1-4212-a7a3-548d11cb1c2b" /># SQL-Mastery-Journey
 here i'll log my progress and dump my solutions of sql questions/problems from sql-practice.com
 
 DAY 1 - 12th MAY 2026 (~ 15mins)
@@ -43,3 +43,16 @@ example: (copied from internet/google's AI mode)
 - '%or%'Matches strings containing "or" at any position (e.g., "Orange", "World")
 - '_a%'Matches strings where "a" is the second character (e.g., "Cat", "Banana")
 - 'A__'Matches strings starting with "A" and exactly 3 characters long (e.g., "Art", "Ada")
+
+
+DAY 3 14th MAY 2026 (~ 20mins)
+
+solved 3 problems
+
+LEARNING:
+
+- to get YEAR (numerical value) from dates, use YEAR() function.
+- eg: YEAR(birth_date) gives you column with year values (eg: 1997, 1992, 1999)
+- SELECT DISTINCT keyword gives you uniques/distinct/different values (use it when u want NO DUPLICATES in o/p)
+- ORDER BY keyword is to get ordered data (sorted data), ASC or DESC.
+- By default it gives data in ASCENDING order.
