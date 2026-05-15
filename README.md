@@ -45,7 +45,7 @@ example: (copied from internet/google's AI mode)
 - 'A__'Matches strings starting with "A" and exactly 3 characters long (e.g., "Art", "Ada")
 
 
-DAY 3 14th MAY 2026 (~ 20mins)
+DAY 3 - 14th MAY 2026 (~ 20mins)
 
 solved 3 problems
 
