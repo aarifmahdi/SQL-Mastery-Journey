@@ -56,3 +56,20 @@ LEARNING:
 - SELECT DISTINCT keyword gives you uniques/distinct/different values (use it when u want NO DUPLICATES in o/p)
 - ORDER BY keyword is to get ordered data (sorted data), ASC or DESC.
 - By default it gives data in ASCENDING order.
+
+
+DAY 4 - 15th MAY 2026 (~ 10mins)
+
+solved 2 problems (1 repeated problem 1 new problem)
+
+LEARNING:
+
+- The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.
+- SQL requires single quotes around text values (most database systems will also allow double quotes).
+- operators in WHERE clause: =, <>, >=, <=, >, <, BETWEEN AND, LIKE, IN
+- eg: 
+
+SELECT * 
+FROM Customers 
+WHERE 
+    Bill BETWEEN 1000 AND 2000;
