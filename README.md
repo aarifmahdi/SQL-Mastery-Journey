@@ -1,7 +1,7 @@
 SQL-Mastery-Journey
 here i'll log my progress and dump my solutions of sql questions/problems from sql-practice.com
 
-DAY 1 - 12th MAY 2026 (~ 15mins)
+DAY 1 - 13th MAY 2026 (~ 15mins)
 
 solved 2 problems
 
@@ -17,7 +17,7 @@ don't use = or <> for NULL!!! (cuz i just did that 😛 it dont work)
 
 for day 2, conitnue solving easy problems and stop either when spent > 15mins OR need learning a new concept (in that case go learn it!)
 
-DAY 2 - 13th MAY 2026 (~ 25mins)
+DAY 2 - 14th MAY 2026 (~ 25mins)
 
 solved 3 problems
 
@@ -45,7 +45,7 @@ example: (copied from internet/google's AI mode)
 - 'A__'Matches strings starting with "A" and exactly 3 characters long (e.g., "Art", "Ada")
 
 
-DAY 3 - 14th MAY 2026 (~ 20mins)
+DAY 3 - 15th MAY 2026 (~ 20mins)
 
 solved 3 problems
 
@@ -58,7 +58,7 @@ LEARNING:
 - By default it gives data in ASCENDING order.
 
 
-DAY 4 - 15th MAY 2026 (~ 10mins)
+DAY 4 - 16th MAY 2026 (~ 10mins)
 
 solved 2 problems (1 repeated problem 1 new problem)
 
@@ -73,3 +73,5 @@ SELECT *
 FROM Customers 
 WHERE 
     Bill BETWEEN 1000 AND 2000;
+
+
