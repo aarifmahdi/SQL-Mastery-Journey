@@ -75,3 +75,33 @@ WHERE
     Bill BETWEEN 1000 AND 2000;
 
 
+DAY 5 - 17th MAY 2026 (~ 30mins)
+
+*ORDER BY Several Columns
+- The following SQL statement selects all customers from the "Customers" table - and sorts it by the "Country" and the "CustomerName" column.
+- This means that it sorts it first by Country, and if some records have the same Country, it sorts them by CustomerName:
+👇
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
+
+*Combine ASC and DESC
+- The following SQL statement selects all customers from the "Customers" table, and
+- sorts it ASCENDING by the "Country" and DESCENDING by the "CustomerName" column:
+👇
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+
+LEARNING:
+- when using ORDER BY, mention ASC or DESC with each column name cuz (only write DESC for descending order, no need to write ASC for ascending, when you don't write anything it's ASC by deafault, so.)
+
+solved 1 problem
+
+LEARNING:
+- reinforcement: string ka pattern batany ky lye LIKE keyword use hota
+e.g: first_name LIKE '__r%' (means first_name should have 'r' as 3rd character), i wrote first_name = '__r%' instead of LIKE, that was my mistake (i should remember this now)
+
+- MONTH() function in SQL returns numeric value of month not the string/name of it, my assumption was ky it would return 'February' or 'May' like this, but i was wrong, it returns 2 or 5 for these months. it returns 1-12 numeric value for months.
+e.g: month(birth_date) IN (2, 5, 12) (means yaha user wants data where birth month is either February, May, or December
+
+- the best way of representing ODD numbers is:
+patient_id % 2 <> 0 (instead of patient_id % 2 = 1 , this is workable for +ve numbers but for -ve numbers it won't work cuz usma remainder -1 aata)
