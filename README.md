@@ -105,3 +105,19 @@ e.g: month(birth_date) IN (2, 5, 12) (means yaha user wants data where birth mon
 
 - the best way of representing ODD numbers is:
 patient_id % 2 <> 0 (instead of patient_id % 2 = 1 , this is workable for +ve numbers but for -ve numbers it won't work cuz usma remainder -1 aata)
+
+DAY 6 - 18th MAY 2026 (~ 15mins)
+
+solved 1 problem
+
+LEARNINg: learnt the syntax of UPDATE command in SQL
+
+UPDATE (command) Syntax:
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+e.g:
+update patients
+set allergies = 'NKA'
+WHERE allergies IS NULL;
